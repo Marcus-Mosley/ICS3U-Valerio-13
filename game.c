@@ -817,7 +817,7 @@ void start() {
     NR51_REG = 0xFF;
 
     SWITCH_ROM_MBC1(5);
-        set_bkg_data(0, 110, logo_data);
+        set_bkg_data(0, 136, logo_data);
         set_bkg_tiles(0, 0, 20, 18, logo_map);
 
     SHOW_BKG;
