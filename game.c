@@ -828,7 +828,7 @@ void start() {
     fadeout();
 
     SWITCH_ROM_MBC1(8);
-        set_bkg_data(0, 45, titlescreen_data);
+        set_bkg_data(0, 48, titlescreen_data);
         set_bkg_tiles(0, 0, 20, 18, titlescreen_map);
 
     disable_interrupts();
